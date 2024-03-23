@@ -1,4 +1,4 @@
-import Wargames from "@/components/wargames";
+import Wargames from "./wargames";
 
 export default function Home() {
   return <Wargames />;
