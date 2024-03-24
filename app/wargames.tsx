@@ -1,7 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import "../styles/styles.css";
 const Wargames = () => {
   const router = useRouter();
   const [showPrompt, setShowPrompt] = useState(false);

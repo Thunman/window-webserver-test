@@ -1,8 +1,10 @@
+import GameContainer from "./gameContainer";
+
 const Game = () => {
   return (
-    <div>
-      <h1 style={{ color: "green" }}>Game</h1>
-    </div>
+    <>
+      <GameContainer />
+    </>
   );
 };
 export default Game;
